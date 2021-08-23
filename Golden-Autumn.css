@@ -1,0 +1,90 @@
+body {
+  background: #bc6c09;
+}
+
+nav ul {
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav ul li {
+  display: inline-block;
+  color: gold;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px solid goldenrod;
+  width: 70px;
+  height: 20px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header h1 {
+  color: mediumturquoise;
+  border: 1px solid mediumturquoise;
+  padding: 4px;
+  width: fit-content;
+  font-style: italic;
+  font-size: 40px;
+}
+
+main {
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 15px;
+  margin-top: 60px;
+}
+
+article div {
+  border: 1px solid yellow;
+  border-radius: 15px;
+  width: 95%;
+  height: 480px;
+  margin: 20px 20px 20px 20px;
+  padding: 30px;
+}
+
+div img {
+  width: 700px;
+  float: right;
+  border: black solid 3px;
+  margin-left: 20px;
+}
+
+div p {
+  font-size: 22px;
+}
+
+div button {
+  border: grey dashed 3px;
+  background-color: rgb(209, 118, 32);
+  color: yellow;
+  text-transform: uppercase;
+  padding: 30px;
+  margin-left: 26%;
+  margin-top: 2%;
+  font-style: normal;
+}
+
+div button:hover {
+  border: grey dashed 3px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(233, 0, 0);
+  text-transform: uppercase;
+  padding: 30px;
+  margin-left: 26%;
+  margin-top: 2%;
+  font-style: oblique;
+}
+
+footer {
+  margin-top: 5px;
+  border: yellow dotted 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 20px;
+}
